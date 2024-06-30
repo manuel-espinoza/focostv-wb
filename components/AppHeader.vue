@@ -6,11 +6,11 @@
       </div>
       <div class="principal-header-logo">
         <a href="https://www.focostv.com">
-          <img src="/assets/img/FOCOS_LGOO.png" alt="logo" width="100" />
+          <img src="/assets/img/Focos_Logo.svg" alt="logo" width="100" />
         </a>
       </div>
       <div class="principal-header-search">
-        <img src="/assets/icons/search.svg" alt="search" width="25" />
+        <img src="/assets/icons/search.svg" alt="search" />
       </div>
     </div>
   </header>

@@ -3,7 +3,9 @@
 }
 .principal-header {
   background-color: #f8f8f7;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-bottom: 0.063rem solid #cdcdcd;
 }
 .principal-header-container {
@@ -36,11 +38,93 @@
 
 .navigation-menu-option a:hover,
 a:active {
-  text-decoration: underline #ffbe02 0.45rem;
+  text-decoration: underline #ffbe02 0.55rem;
   color: #636363;
 }
 
 .navigation-menu-option-active a {
-  text-decoration: underline #ffbe02 0.45rem;
+  text-decoration: underline #ffbe02 0.55rem;
   color: #636363;
+}
+.front-page {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.front-page-principal-section .principal-card,
+.front-page-principal-section .secondary-card {
+  display: flex;
+  margin-top: 3rem;
+  border-bottom: 0.063rem solid #cdcdcd;
+  padding-bottom: 1.5rem;
+}
+.principal-card-img,
+.secondary-card-img {
+  margin: 0 1rem;
+}
+.principal-card-content,
+.secondary-card-content {
+  margin: 0 1rem;
+}
+.principal-card-title h2 {
+  font-size: 2rem;
+}
+.principal-card-resume p {
+  font-size: 1.25rem;
+}
+.principal-card,
+.secondary-card, button {
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.principal-card,
+.secondary-card button label {
+  margin-right: 0.5rem;
+}
+.secondary-card-container {
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer-menu-logo {
+  display: flex;
+}
+.footer-menu-logo,
+.footer-information-container,
+.footer-copyright {
+  padding: 3.5rem;
+}
+.footer-menu,
+.footer-information {
+  list-style: none;
+  margin: 0;
+}
+.footer-menu li {
+  margin-bottom: 1rem;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+.footer-information li {
+  margin-bottom: 1rem;
+}
+.footer-information a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-copyright p {
+  color: white;
 }
