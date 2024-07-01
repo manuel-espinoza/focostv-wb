@@ -38,12 +38,12 @@
 
 .navigation-menu-option a:hover,
 a:active {
-  text-decoration: underline #ffbe02 0.55rem;
+  text-decoration: underline #ffbe02 0.3rem;
   color: #636363;
 }
 
 .navigation-menu-option-active a {
-  text-decoration: underline #ffbe02 0.55rem;
+  text-decoration: underline #ffbe02 0.3rem;
   color: #636363;
 }
 .front-page {
@@ -71,6 +71,7 @@ a:active {
 }
 .principal-card-resume p {
   font-size: 1.25rem;
+  font-weight: lighter;
 }
 .principal-card,
 .secondary-card, button {
